@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8"/>
+		<title>WebAgency</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no"/>
+		<meta name="description" content="Création du site WebAgency">
+		<meta name="keywords" content="Webagency">
+		<meta name="author" content="Grascia Karine">
+		
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="style.css"/>
+		<link rel="stylesheet" href="MediaQ.css"/>
+	</head>
+	
+	<body>
+		
+		<header>
+			
+			<div class="logo">
+				<a href="#"><img src="images/logo.png" alt="Logo Webagency"></a>
+			</div>
+			<nav>
+				
+				<ul>
+					<li><a href="#">Accueil</a></li>
+					<li><a href="#Services">Services</a></li>
+					<li><a href="#projets">Portfolio</a></li>
+					<li><a href="#map">Contact</a></li>
+				</ul>
+				
+			</nav>
+			
+			
+			<nav id="page-nav">
+				<label for="hamburger">&#9776;</label>
+				<input type="checkbox" id="hamburger"/>
+				
+				<ul class="list-menu">
+					<li><a href="#">Accueil</a></li>
+					<li><a href="#Services">Services</a></li>
+					<li><a href="#projets">Portfolio</a></li>
+					<li><a href="#formstyle">Contact</a></li>
+				</ul>
+			</nav>
+			
+		</header>
+		
+		<!--slider-->
+		
+		<section class="container">
+			<img class="MySlides" src="images/slider/bg1.jpg" alt="Image d'une fillette">
+			<div class="captionText">
+				<h1><span class="text_color">WEBAGENCY</span>: L' AGENCE DE TOUS <br/>VOS PROJETS !</h1>
+				<span class="text_soustitre">Vous avez un projet web ? La webAgency vous aide à le réaliser !</span>
+				<br/><br/><br/><a class= "button" href= "#">Plus d’infos</a>
+			</div>
+			
+			
+			<div class="ArrowsLeftRight">
+				
+				<i class="fas fa-chevron-left"></i>
+				
+				<i class="fas fa-chevron-right"></i>
+				
+			</div>
+		</section>
+		
+		<!--NOS SERVICES-->
+		<section id="Services">
+			<h2>NOS SERVICES</h2>
+			<div class="rond_icon">
+				<hr/>
+				<i class="fas fa-circle rond_bleu borderblanc"></i>
+			</div>
+			<h3>La WebAgency vous propose différents services afin de réaliser votre projets grâce à nos professionnels !</h3>
+			<br />
+			
+			<div class="img-services">
+				<div class="container-img">
+					<img src="images/main-feature.png" width="510" height="319" alt="Image d'un ordinateur MAC"/>
+					
+					<article>
+						<div class="infos-services">
+							
+							<div class="icones">
+								<i class="fas fa-chart-line Moncercle"></i>
+								<div class="rond-deco1"></div>
+							</div>
+							<div class="services">
+								<h3>UX design</h3>
+								<p>Il se charge de concevoir la maquette de votre projet en améliorant l'expérience utilisateur et l'ergonomie des interfaces.</p>
+							</div>
+						</div>
+						
+						<div class="infos-services">
+							
+							<div class="icones">
+								<i class="fas fa-cubes Moncercle"></i>
+								<div class="rond-deco2"> </div>
+							</div>
+							<div class="services">
+								<h3>UI design</h3>
+								<p>Il construit l'interface graphique de votre projet en maquette numérique en tenant compte des critères de l'UX DESIGNER.</p>
+							</div>
+						</div>
+						<div class="infos-services">
+							
+							<div class="icones">
+								<i class="fas fa-chart-pie Moncercle"> </i>
+								<div class="rond-deco3"></div>
+							</div>
+							<div class="services">
+								<h3>SEO</h3>
+								<p>Le SEO se charge du référencement de votre projet web sur les moteurs de recherche. </p>
+							</div>
+						</div>
+						
+					</article>
+				</div>
+			</div>
+			
+		</section>
+		
+		
+		<!--NOS PROJETS-->
+		<section id="projets">
+			<h2>NOS PROJETS</h2>
+			
+			<div class="rond-icon">
+				<hr/>
+				<i class="fas fa-circle rond-bleu cercle-blanc"></i>
+			</div>
+			<h3>Découvrez les projets web que nous avons déjà réalisé !</h3>
+			<div class="button-group">
+				<div class="buttons-list">
+					
+					
+					<ul>
+						
+						<li class="btn-projet" id="border-btn1">
+							<span>All Works</span>
+							<span class="arrow-down"></span>
+						</li>
+						
+						<li class="btn-projet btn-hover">
+							<span>Creative</span>
+							<span class="arrow-down"></span>
+						</li>
+						
+						
+						<li class="btn-projet btn-hover">
+							<span>Corporate</span>
+							<span class="arrow-down"></span>
+						</li>
+						
+						<li class="btn-projet btn-hover" id="border-btn4">
+							<span>Portfolio</span>
+							<span class="arrow-down"></span>
+							
+						</li>
+						
+					</ul>
+					
+				</div>
+				
+				
+				
+				<div class="images_projet">
+					<div id="conteneur">
+						<figure class="Proj-img"><img class="liste-images" src="images/portfolio/01.jpg"/><figcaption><h3>Projet 1</h3><p>Un cabinet d'ophtalmologiste</p><i class="fa fa-eye Circl"></i></figcaption></figure>
+						
+						<figure class="Proj-img"><img class="liste-images" src="images/portfolio/02.jpg"/><figcaption><h3>Projet 2</h3><p>Une boutique de costumes</p><i class="fa fa-eye Circl" aria-hidden="true"></i></figcaption></figure>
+						
+						<figure class="Proj-img"><img class="liste-images" src="images/portfolio/03.jpg"/><figcaption><h3>Projet 3</h3> <p>Le site officiel Pompadour</p><i class="fa fa-eye Circl" aria-hidden="true"></i></figcaption></figure>
+						
+						<figure class="Proj-img"><img class="liste-images" src="images/portfolio/04.jpg"/><figcaption><h3>Projet 4</h3><p> Un bureau d'étude</p><i class="fa fa-eye Circl" aria-hidden="true"></i></figcaption></figure>
+						
+						<figure class="Proj-img"><img class="liste-images" src="images/portfolio/05.jpg"/><figcaption><h3>Projet 5</h3><p> Une boutique de shopping</p><i class="fa fa-eye Circl" aria-hidden="true"></i></figcaption></figure>
+						
+						<figure class="Proj-img"><img class="liste-images" src="images/portfolio/06.jpg"/><figcaption><h3>Projet 6</h3><p>Une agence de voyage</p><i class="fa fa-eye Circl" aria-hidden="true"></i></figcaption></figure>
+						
+						<figure class="Proj-img"><img class="liste-images" src="images/portfolio/07.jpg"/><figcaption><h3>Projet 7</h3><p>Un surplus militaire</p><i class="fa fa-eye Circl" aria-hidden="true"></i></figcaption></figure>
+						
+						<figure class="Proj-img"><img class="liste-images" src="images/portfolio/08.jpg"/><figcaption><h3>Projet 8</h3><p> Des produits d'entreprises</p><i class="fa fa-eye Circl" aria-hidden="true"></i></figcaption></figure>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--FORMULAIRE-->
+		<section id="formstyle">
+			<form>
+				<fieldset>
+					<h2 class="contactinfo">Contact Info</h2>
+					<p class="p-contact"><span class="s-titre">WebAgency SAS</span><br/>25 Rue d'Hauteville 75010 Paris
+					<br/><span class="border">Tel</span>: 01 02 03 04 05</p>
+					<input type="text" name="field1" placeholder="Name">
+					<br/>
+					<input type="email" name="field2" placeholder="Email"><br/>
+					<input type="text" name="field3" placeholder="Subject"><br/>
+					<textarea name="field4" placeholder="Message" rows="10"></textarea>
+					<input type="submit" value="Send Message"/>
+				</fieldset>
+			</form>
+		</section>
+		
+		<!--MAPS-->
+		<div id='map'>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.221609680713!2d2.347636915555559!3d48.87305177928905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25%20Rue%20d&#39;Hauteville%2C%2075010%20Paris!5e0!3m2!1sfr!2sfr!4v1571409821377!5m2!1sfr!2sfr" allowfullscreen=""></iframe>
+		</div>
+	
+	<footer>
+		<div id="Apropos">
+			<h3>À propos</h3>
+			<p><a href="#">L'entreprise</a></p>
+			<p><a href="#">Qui sommes-nous ?</a></p>
+			<p><a href="#">L'équipe</a></p>
+		</div>
+		<div id="Informations">
+			<h3>Informations</h3>
+			<p><a href="#">Mentions légales</a></p>
+			<p><a href="#">FAQ</a></p>
+			<p><a href="#">Les avis en ligne</a></p>
+		</div>
+		<div id="Media">
+			<h3>Médias</h3>
+			<p>
+				<img src="images/ico/facebook.png" alt="Facebook">
+				<img src="images/ico/twitter.png" alt="Twitter">
+			</p>
+		</div>
+	</footer>
+</body>
+</html>
